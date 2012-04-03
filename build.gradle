@@ -13,4 +13,10 @@ combineJs {}
 minifyJs {}
 gzipJs {}
 jshint {}
+csslint {}
+qunit {}
+mocha {}
+phantomjs {}
+jstestdriver {}
 groovy jsdoc {}
+jsduck {}
