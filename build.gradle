@@ -1,0 +1,16 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'com.eriwen:gradle-js-plugin:0.3'
+  }
+}
+
+apply plugin: 'js'
+
+combineJs {}
+minifyJs {}
+gzipJs {}
+jshint {}
+groovy jsdoc {}
